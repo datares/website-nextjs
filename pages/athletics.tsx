@@ -56,7 +56,7 @@ const Athletics = () => {
                                 <Divider/>
                                 <p> We tried to find out how we could leverage data on athlete wellbeing to optimize training plans and in-game strategies across a multitude of sports programs.
                                 </p>
-                                <p> View our <a href = "https://drive.google.com/file/d/1W56qbR0LU40fM_U2HiSjUBkKL9VnlXCM/edit"><u> resume here </u></a> to read about the various data consulting services we provide to UCLA Athletics, to make their Athletics program even more legendary. For a more detailed description of our workflow for UCLA Athletics, you can read <a href = "https://drive.google.com/file/d/18z7tYx06rYoaF7cDGOroDZxt7MnWtvL1/view?usp=sharing"><u>our documentation here</u></a> (presented on DataRes Demo Day Spring '21).
+                                <p> View our <a href = "https://drive.google.com/file/d/1W56qbR0LU40fM_U2HiSjUBkKL9VnlXCM/edit"><u> resume here </u></a> to read about the various data consulting services we provide to UCLA Athletics, to make their Athletics program even more legendary. For a more detailed description of our workflow for UCLA Athletics, you can read <a href = "https://drive.google.com/file/d/18z7tYx06rYoaF7cDGOroDZxt7MnWtvL1/view?usp=sharing"><u>our documentation here</u></a> (presented on DataRes Demo Day Spring &apos;21).
                                 </p>
                             </div>
                         </Segment>

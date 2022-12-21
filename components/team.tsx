@@ -13,8 +13,8 @@ import Image from 'next/image';
 // Import Profiles
 import irsyad from '../public/Assets/Team/Profiles/irsyad.jpg';
 import anika from '../public/Assets/Team/Profiles/anika.jpg';
-import avishek from '../public/Assets/Team/Profiles/avishek.JPG';
-import brandon from '../public/Assets/Team/Profiles/brandon.JPG';
+import avishek from '../public/Assets/Team/Profiles/avishek.jpg';
+import brandon from '../public/Assets/Team/Profiles/brandon.jpg';
 import colin from '../public/Assets/Team/Profiles/Colin.jpg';
 import derek from '../public/Assets/Team/Profiles/derek.jpg';
 import isha from '../public/Assets/Team/Profiles/Isha.jpg';

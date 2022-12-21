@@ -10,25 +10,25 @@ const panes = [
     {
         menuItem: 'General',
         render: () => <Tab.Pane attached={false} style={{textAlign: 'left', padding: '5%'}}>
-                            <ReactMarkdown children={general_info} />
+                            <ReactMarkdown>{general_info}</ReactMarkdown>
                       </Tab.Pane>,
     },
     {
         menuItem: 'Data Blog',
         render: () => <Tab.Pane attached={false} style={{textAlign: 'left', padding: '5%'}}>
-                            <ReactMarkdown children={datablog_info} />
+                            <ReactMarkdown>{datablog_info}</ReactMarkdown>
                       </Tab.Pane>,
     },
     {
         menuItem: 'Research',
         render: () => <Tab.Pane attached={false} style={{textAlign: 'left', padding: '5%'}}>
-                            <ReactMarkdown children={research_info} />
+                            <ReactMarkdown>{research_info}</ReactMarkdown>
                      </Tab.Pane>,
     },
     {
         menuItem: 'Consulting',
         render: () => <Tab.Pane attached={false} style={{textAlign: 'left', padding: '5%'}}>
-                            <ReactMarkdown children={consulting_info} />
+                            <ReactMarkdown>{consulting_info}</ReactMarkdown>
                      </Tab.Pane>,
     }
 ]

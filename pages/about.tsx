@@ -8,7 +8,7 @@ const FAQ = () => {
             <div style={{ textAlign: 'left', paddingTop: '10%', paddingLeft: '20%', color: "white"}}>
                 <Container>
                     <Header style={{fontSize: '3em', color: "white"}}>What is DataRes?</Header>
-                    <p style={{fontSize: '1.5em', maxWidth: "60%"}}>DataRes is UCLA's first and largest student organization dedicated to fostering knowledge and growth in data science.  We provide a platform for aspiring data scientists and analysts to collaborate on impactful data projects. If you love playing with data, creating powerful visualizations, or building predictive models, you have a home at DataRes.</p>
+                    <p style={{fontSize: '1.5em', maxWidth: "60%"}}>DataRes is UCLA&apos;s first and largest student organization dedicated to fostering knowledge and growth in data science.  We provide a platform for aspiring data scientists and analysts to collaborate on impactful data projects. If you love playing with data, creating powerful visualizations, or building predictive models, you have a home at DataRes.</p>
                 </Container>
             </div>
 
@@ -16,7 +16,7 @@ const FAQ = () => {
                 <Header style={{fontSize: '3em', color: "white"}}>What teams do we have?</Header>
                 <p style={{fontSize: '1.5em', maxWidth: "60%"}}>Currently DataRes has 4 teams: Data Blog, Consulting, Research, and UCLA Athletics.  Each of our teams are designed to teach their members about a specific area of data science and its application, while providing opportunities to learn new skills and apply your knowledge.</p>
 
-                <p style={{fontSize: '1.5em', maxWidth: "60%"}}>Visit the specific team's page to learn more them!</p>
+                <p style={{fontSize: '1.5em', maxWidth: "60%"}}>Visit the specific team&apos;s page to learn more them!</p>
             </div>
 
             <div style={{ textAlign: 'left', paddingTop: '10%', paddingLeft: '20%', color: "white"}}>

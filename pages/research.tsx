@@ -67,7 +67,7 @@ const Research = () => {
                                     primarily involving deep learning and reinforcement learning. 
                                 </p>
                                 <p style={{fontSize: '1.5em'}}>
-                                    In previous quarters, we've worked on graph neural networks and node classification,
+                                    In previous quarters, we&apos;ve worked on graph neural networks and node classification,
                                     generative modeling, and text generation.
                                 </p>
                                 <p style={{fontSize: '1.5em'}}>

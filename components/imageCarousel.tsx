@@ -15,7 +15,7 @@ const ImageCarousel = (props:any) => {
     return (
         <div className={styles.embla} ref={emblaRef}>
             <div className={styles.embla__container}>
-                {props.images.map((item, idx) => (
+                {props.images.map((item:any, idx:any) => (
                     <div key={idx} className={styles.embla__slide}>
                         <Image src={item.src} width={500} alt={item.alt} />
                         <p style={{color: 'black'}}>{item.description}</p>
