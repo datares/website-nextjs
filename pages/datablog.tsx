@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 
 // Import JS
-import styles from '../Styles/datablog.module.css';
+import styles from '../Styles/DataBlog.module.css';
 
 // Import Images
 import blogImage from '../public/Assets/DataBlog/blog_image.svg';

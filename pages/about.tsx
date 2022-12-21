@@ -2,7 +2,7 @@ import React from 'react';
 import {Header, Container} from 'semantic-ui-react';
 import Team from '../components/team';
 
-const FAQ = () => {
+const About = () => {
     return (
         <div style={{backgroundColor: "#333b65", paddingBottom: '10%'}}>
             <div style={{ textAlign: 'left', paddingTop: '10%', paddingLeft: '20%', color: "white"}}>
@@ -29,4 +29,4 @@ const FAQ = () => {
     );
 }
 
-export default FAQ;
+export default About;

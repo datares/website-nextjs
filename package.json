@@ -25,6 +25,7 @@
     "react-responsive-carousel": "^3.2.23",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
+    "sharp": "^0.31.3",
     "typescript": "4.9.4"
   }
 }
