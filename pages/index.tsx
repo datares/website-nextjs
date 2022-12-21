@@ -3,8 +3,6 @@ import Link from 'next/link';
 import {Header, Button, Icon,
   Grid, Container} from 'semantic-ui-react';
 
-import 'semantic-ui-css/semantic.min.css';
-
 import styles from '../styles/Home.module.css'
 
 import blogImage from '../public/Assets/DataBlog/blog_image.svg';
