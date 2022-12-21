@@ -54,9 +54,9 @@ const Research = () => {
         <div style={{backgroundColor: "#333b65"}}>
             
             {/* Main Description  */}
-            <div className="Header" style={{color: "white"}}>
+            <div style={{color: "white", paddingTop: '10%'}}>
                 <Container>
-                    <div style={{paddingTop: '10%'}}>
+                    <div style={{}}>
                     <h1 style={{fontSize: '5em'}}>Research</h1>
                     </div>
                     <Grid>

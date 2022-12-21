@@ -452,7 +452,7 @@ const Articles = [
 
 export default function DataBlog() {
     return (
-        <div style={{backgroundColor: '#333b65', color: 'white', paddingTop: '1%'}}>
+        <div style={{backgroundColor: '#333b65', color: 'white'}}>
                 <Container style={{paddingTop: '10%'}}>
                     <Grid>
                         <Grid.Row columns={2}>
@@ -461,7 +461,7 @@ export default function DataBlog() {
                             </Grid.Column>
                             <Grid.Column width={9}>
                                 <div>
-                                    <h1 style={{color: "white", fontSize: '4em'}}>Data Blog</h1>
+                                    <h1 style={{color: "white", fontSize: '5em'}}>Data Blog</h1>
                                 </div>
                                 <p style={{color: "white", fontSize: '1.75em', maxWidth: '100%', paddingTop: '1%'}}>
                                     Our teams publish a variety of data-centric journal articles,

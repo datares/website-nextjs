@@ -37,7 +37,7 @@ const applicationPage = () => {
     const applyOpen = new Date("12/09/2022");
     const applyClose = new Date("01/13/2023");
     const applicationLink = "https://forms.gle/tzDRTQjHmG2XXkuR8";
-    if (applyOpen < Date.now() && Date.now() < new Date(applyClose).setHours(24, 0, 0, 0)) {
+    if (applyOpen < new Date(Date.now()) && Date.now() < new Date(applyClose).setHours(24, 0, 0, 0)) {
         // need this weird date logic to make sure current time is less than midnight for applyClose
         return (
             <Grid>
@@ -49,7 +49,7 @@ const applicationPage = () => {
                     </Grid.Column>
                     <Grid.Column>
                     <div style={{marginTop: '5%', paddingTop: '20%', textAlign: 'center'}}>
-                                <Button  color="white" size="large" onClick={() => window.open(applicationLink, "_blank")}>
+                                <Button size="large" onClick={() => window.open(applicationLink, "_blank")}>
                                     Apply!
                                 </Button>
                             </div>

@@ -1,9 +1,7 @@
 import {Header, Container,
     Grid, Divider, Segment} from 'semantic-ui-react';
-import Image from 'next/image';
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import ImageCarousel from '../components/imageCarousel';
 
 import datafest1 from "../public/Assets/Events/datafest1.jpg"
 import datafest2 from "../public/Assets/Events/datafest2.jpg"
@@ -14,22 +12,45 @@ import datalearn from "../public/Assets/Events/datalearn.jpg"
 import consulting from "../public/Assets/Events/consulting.jpg"
 
 const Events = () => {
-    const datafest_images = [datafest1, datafest2, datafest3, datafest4]
+    const datafest_images = [
+        {
+            src: datafest1,
+            alt: 'datafest image',
+            description: "Joe and Josie spotted among DataRes members"
+        },
+        {
+            src: datafest2,
+            alt: 'datafest image',
+            description: "Always good food at the hackathon"
+        },
+        {
+            src: datafest3,
+            alt: 'datafest image',
+            description: "Good vibes post closing ceremony"
+        },
+        {
+            src: datafest4,
+            alt: 'datafest image',
+            description: "Late nights at the hackathon are always rough"
+        }
+    ]
     const social_images = [
         {
             src: laser_tag,
-            content: "laser tag social!"
+            alt: 'laser tag social',
+            description: "Laser tag social!"
         },
         {
             src: datalearn,
-            content: "DataLearn info session"
-        }, {
+            alt: 'laser tag social',
+            description: "DataLearn info session"
+        },
+        {
             src: consulting,
-            content: "consulting team social"
+            alt: 'laser tag social',
+            description: "Consulting team social at Janss!"
         }
     ]
-    
-    // label={{ as: 'a', color: 'blue', content: e.content, ribbon: true, }} 
 
     return (
         <div style={{backgroundColor: "#333b65", color: "white"}}>
@@ -51,7 +72,7 @@ const Events = () => {
                     </Grid>
                 </Container>
             </div>
-            
+
             <div style={{marginTop: '5%', paddingBottom: '10%'}}>
                 <Container fluid>
                     <div style={{fontSize: 40, marginBottom: '5%', marginTop: '5%'}}>
@@ -61,14 +82,8 @@ const Events = () => {
                     <div style={{alignItems: 'center', alignContent: 'center'}}>
 
                     <Container className='card-body'>
-                        <Segment className='segment-body' size='big' onClick={() => {}} >
-                            {/* <Container>
-                                <Carousel autoPlay={true}>
-                                    {datafest_images.map(
-                                        (e, idx) => <Image key={idx} src={e} width={500} alt='image carousel' />
-                                    )}
-                                </Carousel>
-                            </Container> */}
+                        <Segment style={{textAlign: 'center'}} size='big' >
+                            <ImageCarousel images={datafest_images} />
                             <Header style={{fontSize: 18}}>April 29 - May 1, 2022</Header>
                             <div style={{fontSize: 16, color: 'black'}}>
                                 <Divider/>
@@ -90,20 +105,12 @@ const Events = () => {
                         <h1 style={{fontSize: '1.5em', paddingLeft: '10%'}}>Social and Educational Events</h1>
                     </div>
                     
-                    <div style={{alignItems: 'center', alignContent: 'center'}}>
+                    <div style={{alignItems: 'center', textAlign: 'center'}}>
 
                     <Container className='card-body'>
-                        <Segment className='segment-body' size='big' onClick={() => {}} >
-                            {/* <Container>
-                                <Carousel autoPlay={true}>
-                                    {social_images.map(
-                                        (e, idx) =>
-                                            <Image key={idx} src={e.src} width={500} alt='image carousel'/>
-                                    )}
-                                    
-                                </Carousel>
-                            </Container> */}
+                        <Segment className='segment-body' onClick={() => {}} >
                             <Header style={{fontSize: 18}}>Club Community</Header>
+                            <ImageCarousel images={social_images} />
                             <div style={{fontSize: 16, color: 'black'}}>
                                 <Divider/>
                                 <p>
