@@ -1,0 +1,23 @@
+.Title {
+    font-size: 3em;
+    text-align: left;
+    padding-top: 5%;
+}
+
+.services {
+    padding-left: 5%;
+    text-align: left;
+}
+
+.description {
+    font-size: 1.75em;
+}
+
+.card-body {
+    margin: 5%;
+}
+
+.segment-body {
+    width: 100%;
+    height: 100%;
+}
