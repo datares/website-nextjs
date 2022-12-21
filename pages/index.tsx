@@ -5,7 +5,6 @@ import {Header, Button, Icon,
 
 import 'semantic-ui-css/semantic.min.css';
 
-// import styles from '../styles/Home.css'
 import styles from '../styles/Home.module.css'
 
 import blogImage from '../public/Assets/DataBlog/blog_image.svg';

@@ -6,7 +6,7 @@ import Image from 'next/image';
 import consultingImage from '../public/Assets/Consulting/consulting_image.svg';
 import clients from '../public/Assets/Consulting/Clients/clients.png';
 
-import styles from '../styles/Consulting.module.css'
+import styles from '../styles/Consulting.module.css';
 
 
 export default function Consulting() {
